@@ -23,7 +23,7 @@ length(hol$dwc.scientificName)
 
 unique(hol$dwc.institutionCode) ## 2848
 table(hol$dwc.institutionCode)
-plot 
+barplot(table(hol$dwc.institutionCode)) ## here's the fix for doing the barplot -S.C. 
 
 ##Do not understand how to generate plots??
 
